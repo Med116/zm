@@ -23,6 +23,8 @@ This function allows you to write HTML in javascript.
     
 ## Better Example in a Backbone View, as a function called `getTemplate`
 
+### * akon is an alias for addContent *
+
     var ShoppingCartView = Backbone.View.extend({
     	el:"#shopping_cart",
     	initialize: function(){
