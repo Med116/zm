@@ -1,0 +1,20 @@
+{
+	"author":"mark davis",
+	"name":"zm",
+	"description":"A non markup templating function to build up html strings, \n 
+	 object oriented, ie: new Span(\"im a span\").addClass(\"foo faa fee fuu\")",
+	"version":"0.1.1",
+	"repository":"https://github.com/Med116/zm.git",
+	"main":"./lib/main",
+	"bin":{
+		"zm":"./bin/zm"
+	},
+	"dependencies":{},
+	"devDependencies":{},
+	"optionalDependencies":{},
+	"engines":{
+		"node":"*"
+	}
+
+
+}
