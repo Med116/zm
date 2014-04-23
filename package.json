@@ -4,9 +4,9 @@
 	"description":"A non markup templating function to build up html strings",
 	"version":"0.1.2",
 	"repository":"https://github.com/Med116/zm.git",
-	"main":"./lib/main",
+	"main":"./lib/main.js",
 	"bin":{
-		"zm":"./bin/zm"
+		"zm":"./bin/zm.js"
 	},
 	"dependencies":{},
 	"devDependencies":{},
