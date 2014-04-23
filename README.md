@@ -6,7 +6,7 @@ zm
 This function allows you to write HTML in javascript.
 
 ## Example
-
+    var Zm = require("./lib/zm");
     var div = new Zm.Div();
     div.addContent("this is a div")
     			.addClass("no_wrap blue funny_class")
