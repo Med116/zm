@@ -1,0 +1,121 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.7
+3 info using node@v0.11.12
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /home/mark/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/home/mark/tmp/npm-2523-wT0uW0ik/1398726568980-0.9397497742902488/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /home/mark/tmp/npm-2523-wT0uW0ik/1398726568980-0.9397497742902488/tmp.tgz
+12 verbose folder .
+13 info prepublish zm@0.1.2
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /home/mark/.npm/1f1177db-tar.lock
+16 silly lockFile f55d8dca-68980-0-9397497742902488-tmp-tgz tar:///home/mark/tmp/npm-2523-wT0uW0ik/1398726568980-0.9397497742902488/tmp.tgz
+17 verbose lock tar:///home/mark/tmp/npm-2523-wT0uW0ik/1398726568980-0.9397497742902488/tmp.tgz /home/mark/.npm/f55d8dca-68980-0-9397497742902488-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile f55d8dca-68980-0-9397497742902488-tmp-tgz tar:///home/mark/tmp/npm-2523-wT0uW0ik/1398726568980-0.9397497742902488/tmp.tgz
+21 silly lockFile f55d8dca-68980-0-9397497742902488-tmp-tgz tar:///home/mark/tmp/npm-2523-wT0uW0ik/1398726568980-0.9397497742902488/tmp.tgz
+22 verbose tar unpack /home/mark/tmp/npm-2523-wT0uW0ik/1398726568980-0.9397497742902488/tmp.tgz
+23 silly lockFile a9223645-r-home-mark-npm-zm-0-1-2-package tar:///home/mark/.npm/zm/0.1.2/package
+24 verbose lock tar:///home/mark/.npm/zm/0.1.2/package /home/mark/.npm/a9223645-r-home-mark-npm-zm-0-1-2-package.lock
+25 silly lockFile f55d8dca-68980-0-9397497742902488-tmp-tgz tar:///home/mark/tmp/npm-2523-wT0uW0ik/1398726568980-0.9397497742902488/tmp.tgz
+26 verbose lock tar:///home/mark/tmp/npm-2523-wT0uW0ik/1398726568980-0.9397497742902488/tmp.tgz /home/mark/.npm/f55d8dca-68980-0-9397497742902488-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+30 silly gunzTarPerm extractEntry .npmignore
+31 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+32 silly gunzTarPerm extractEntry README.md
+33 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+34 silly gunzTarPerm extractEntry test.js
+35 silly gunzTarPerm modified mode [ 'test.js', 436, 420 ]
+36 silly gunzTarPerm extractEntry zm.js
+37 silly gunzTarPerm modified mode [ 'zm.js', 436, 420 ]
+38 silly gunzTarPerm extractEntry bin/zm.js
+39 silly gunzTarPerm modified mode [ 'bin/zm.js', 436, 420 ]
+40 silly gunzTarPerm extractEntry lib/main.js
+41 silly gunzTarPerm modified mode [ 'lib/main.js', 436, 420 ]
+42 silly gunzTarPerm extractEntry lib/zm.js
+43 silly gunzTarPerm modified mode [ 'lib/zm.js', 436, 420 ]
+44 silly lockFile a9223645-r-home-mark-npm-zm-0-1-2-package tar:///home/mark/.npm/zm/0.1.2/package
+45 silly lockFile a9223645-r-home-mark-npm-zm-0-1-2-package tar:///home/mark/.npm/zm/0.1.2/package
+46 silly lockFile f55d8dca-68980-0-9397497742902488-tmp-tgz tar:///home/mark/tmp/npm-2523-wT0uW0ik/1398726568980-0.9397497742902488/tmp.tgz
+47 silly lockFile f55d8dca-68980-0-9397497742902488-tmp-tgz tar:///home/mark/tmp/npm-2523-wT0uW0ik/1398726568980-0.9397497742902488/tmp.tgz
+48 silly lockFile 3a52ce78- .
+49 silly lockFile 3a52ce78- .
+50 silly publish { author: { name: 'mark davis' },
+50 silly publish   name: 'zm',
+50 silly publish   description: 'A non markup templating function to build up html strings',
+50 silly publish   version: '0.1.2',
+50 silly publish   repository: { type: 'git', url: 'https://github.com/Med116/zm.git' },
+50 silly publish   main: './lib/main.js',
+50 silly publish   bin: { zm: './bin/zm.js' },
+50 silly publish   dependencies: {},
+50 silly publish   devDependencies: {},
+50 silly publish   optionalDependencies: {},
+50 silly publish   engines: { node: '*' },
+50 silly publish   readme: 'zm\n==\n\n##Zero Markup JS templating function\n\nThis function allows you to write HTML in javascript.\n\n## Example\n    var Zm = require("./lib/zm");\n    var div = new Zm.Div();\n    div.addContent("this is a div")\n    \t\t\t.addClass("no_wrap blue funny_class")\n    \t\t\t.setAttr("clown","true")\n    \t\t\t.setAttr("scary","yes");\n \n    var html = div.print();\n    console.log(html);\n    \n## Output of example\n\n    <div class=" no_wrap blue funny_class"  clown="true" scary="yes" >this is a div</div> \n    \n    \n## Better Example in a Backbone View, as a function called `getTemplate`\n\n### * akon is an alias for addContent *\n\n    var ShoppingCartView = Backbone.View.extend({\n    \tel:"#shopping_cart",\n    \tinitialize: function(){\n    \t\tthis.collection.on("add", this.render, this); \n    \t},\n    \trender: function(){\n    \t\tvar total = this.getTotal();\n    \t\tthis.$el.html(this.getTemplate());\n    \t},\n    \tgetTotal: function(){\n    \t\tvar sum = 0;\n    \t\t_.each(this.collection.models, function(product){\n    \t\t\tsum += parseFloat(product.get("price"));\n    \t\t});\n    \t\treturn parseFloat(sum).toFixed(2);\n    \t},\n    \tgetTemplate: function(){\n    \t\tvar header_row = new Zm.Tr().akon(new Zm.Td().akon("Product")).akon(new Zm.Td().akon("Price"));\n    \t\tvar table = new Zm.Table().addClass("shopping_cart_table width_all").akon(header_row);\n    \t\t_.each(this.collection.models, function(model){\n    \t\t\ttable.akon(new Zm.Tr().akon(new Zm.Td().akon(model.get("title"))).akon(new Zm.Td().akon(new Zm.Span().addClass("price").akon(model.get("price")))));\n    \t\t});\n    \t\treturn new Zm.H1("Your Cart").print() + table.print();\n    \t}\n    });\n    \n## This produces the html below:\n\n    <h1   >Your Cart</h1><table class=" shopping_cart_table width_all"  ><tr   ><td   >Product</td><td   >Price</td></tr><tr   ><td   >Tylenol</td><td   ><span class=" price"  >20.00</span></td></tr></table> \n    \n    \n    \n\n\n\n\n\n',
+50 silly publish   readmeFilename: 'README.md',
+50 silly publish   bugs: { url: 'https://github.com/Med116/zm/issues' },
+50 silly publish   homepage: 'https://github.com/Med116/zm',
+50 silly publish   _id: 'zm@0.1.2',
+50 silly publish   _shasum: 'b5c9bbd70127a2bdd72bba78086053ad7f7b6ab3',
+50 silly publish   _from: '.' }
+51 verbose url raw zm
+52 verbose url resolving [ 'https://registry.npmjs.org/', './zm' ]
+53 verbose url resolved https://registry.npmjs.org/zm
+54 info trying registry request attempt 1 at 19:09:29
+55 http PUT https://registry.npmjs.org/zm
+56 http 403 https://registry.npmjs.org/zm
+57 verbose headers { date: 'Mon, 28 Apr 2014 23:09:29 GMT',
+57 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+57 verbose headers   'content-type': 'application/json',
+57 verbose headers   'cache-control': 'max-age=1',
+57 verbose headers   'content-length': '4619',
+57 verbose headers   'accept-ranges': 'bytes',
+57 verbose headers   via: '1.1 varnish',
+57 verbose headers   'x-served-by': 'cache-jfk1027-JFK',
+57 verbose headers   'x-cache': 'MISS',
+57 verbose headers   'x-cache-hits': '0',
+57 verbose headers   'x-timer': 'S1398726568.801280260,VS0,VE320',
+57 verbose headers   connection: 'close' }
+58 error publish Failed PUT 403
+59 error Error: forbidden cannot modify pre-existing version: 0.1.2
+59 error old={"author":{"name":"mark davis"},"name":"zm","description":"A non markup templating function to build up html strings","version":"0.1.2","repository":{"type":"git","url":"https://github.com/Med116/zm.git"},"main":"./lib/main.js","bin":{"zm":"./bin/zm.js"},"dependencies":{},"devDependencies":{},"optionalDependencies":{},"engines":{"node":"*"},"bugs":{"url":"https://github.com/Med116/zm/issues"},"homepage":"https://github.com/Med116/zm","_id":"zm@0.1.2","_shasum":"3c480b18005b52142ec4decee778905751c4de51","_from":".","_npmVersion":"1.4.7","_npmUser":{"name":"mark116","email":"markdavis116@gmail.com"},"maintainers":[{"name":"mark116","email":"markdavis116@gmail.com"}],"dist":{"shasum":"3c480b18005b52142ec4decee778905751c4de51","tarball":"http://registry.npmjs.org/zm/-/zm-0.1.2.tgz"}}
+59 error new={"author":{"name":"mark davis"},"name":"zm","description":"A non markup templating function to build up html strings","version":"0.1.2","repository":{"type":"git","url":"https://github.com/Med116/zm.git"},"main":"./lib/main.js","bin":{"zm":"./bin/zm.js"},"dependencies":{},"devDependencies":{},"optionalDependencies":{},"engines":{"node":"*"},"readme":"zm\u000a==\u000a\u000a##Zero Markup JS templating function\u000a\u000aThis function allows you to write HTML in javascript.\u000a\u000a## Example\u000a    var Zm = require(\"./lib/zm\");\u000a    var div = new Zm.Div();\u000a    div.addContent(\"this is a div\")\u000a    \u0009\u0009\u0009.addClass(\"no_wrap blue funny_class\")\u000a    \u0009\u0009\u0009.setAttr(\"clown\",\"true\")\u000a    \u0009\u0009\u0009.setAttr(\"scary\",\"yes\");\u000a \u000a    var html = div.print();\u000a    console.log(html);\u000a    \u000a## Output of example\u000a\u000a    <div class=\" no_wrap blue funny_class\"  clown=\"true\" scary=\"yes\" >this is a div</div> \u000a    \u000a    \u000a## Better Example in a Backbone View, as a function called `getTemplate`\u000a\u000a### * akon is an alias for addContent *\u000a\u000a    var ShoppingCartView = Backbone.View.extend({\u000a    \u0009el:\"#shopping_cart\",\u000a    \u0009initialize: function(){\u000a    \u0009\u0009this.collection.on(\"add\", this.render, this); \u000a    \u0009},\u000a    \u0009render: function(){\u000a    \u0009\u0009var total = this.getTotal();\u000a    \u0009\u0009this.$el.html(this.getTemplate());\u000a    \u0009},\u000a    \u0009getTotal: function(){\u000a    \u0009\u0009var sum = 0;\u000a    \u0009\u0009_.each(this.collection.models, function(product){\u000a    \u0009\u0009\u0009sum += parseFloat(product.get(\"price\"));\u000a    \u0009\u0009});\u000a    \u0009\u0009return parseFloat(sum).toFixed(2);\u000a    \u0009},\u000a    \u0009getTemplate: function(){\u000a    \u0009\u0009var header_row = new Zm.Tr().akon(new Zm.Td().akon(\"Product\")).akon(new Zm.Td().akon(\"Price\"));\u000a    \u0009\u0009var table = new Zm.Table().addClass(\"shopping_cart_table width_all\").akon(header_row);\u000a    \u0009\u0009_.each(this.collection.models, function(model){\u000a    \u0009\u0009\u0009table.akon(new Zm.Tr().akon(new Zm.Td().akon(model.get(\"title\"))).akon(new Zm.Td().akon(new Zm.Span().addClass(\"price\").akon(model.get(\"price\")))));\u000a    \u0009\u0009});\u000a    \u0009\u0009return new Zm.H1(\"Your Cart\").print() + table.print();\u000a    \u0009}\u000a    });\u000a    \u000a## This produces the html below:\u000a\u000a    <h1   >Your Cart</h1><table class=\" shopping_cart_table width_all\"  ><tr   ><td   >Product</td><td   >Price</td></tr><tr   ><td   >Tylenol</td><td   ><span class=\" price\"  >20.00</span></td></tr></table> \u000a    \u000a    \u000a    \u000a\u000a\u000a\u000a\u000a\u000a","readmeFilename":"README.md","bugs":{"url":"https://github.com/Med116/zm/issues"},"homepage":"https://github.com/Med116/zm","_id":"zm@0.1.2","_shasum":"b5c9bbd70127a2bdd72bba78086053ad7f7b6ab3","_from":".","_npmVersion":"1.4.7","_npmUser":{"name":"mark116","email":"markdavis116@gmail.com"},"maintainers":[{"name":"mark116","email":"markdavis116@gmail.com"}],"dist":{"shasum":"b5c9bbd70127a2bdd72bba78086053ad7f7b6ab3","tarball":"http://registry.npmjs.org/zm/-/zm-0.1.2.tgz"}}: zm
+59 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:262:14)
+59 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:200:65)
+59 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+59 error     at Request.EventEmitter.emit (events.js:107:17)
+59 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+59 error     at Request.EventEmitter.emit (events.js:126:20)
+59 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+59 error     at IncomingMessage.EventEmitter.emit (events.js:126:20)
+59 error     at _stream_readable.js:895:16
+59 error     at process._tickCallback (node.js:339:11)
+60 error If you need help, you may report this *entire* log,
+60 error including the npm and node versions, at:
+60 error     <http://github.com/npm/npm/issues>
+61 error System Linux 3.8.0-34-generic
+62 error command "node" "/usr/local/bin/npm" "publish"
+63 error cwd /home/mark/zm
+64 error node -v v0.11.12
+65 error npm -v 1.4.7
+66 verbose exit [ 1, true ]
