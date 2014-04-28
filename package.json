@@ -2,7 +2,7 @@
 	"author":"mark davis",
 	"name":"zm",
 	"description":"A non markup templating function to build up html strings",
-	"version":"0.1.2",
+	"version":"0.1.3",
 	"repository":"https://github.com/Med116/zm.git",
 	"main":"./lib/main.js",
 	"bin":{
